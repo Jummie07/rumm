@@ -22,6 +22,11 @@ This project aims to provide a comprehensive data analysis of Adidas sales perfo
 
 ![image](https://github.com/user-attachments/assets/15f9b029-0e7e-4cd1-939d-ce2e48b2fdbf)
 
+[Product perfomance in each State]
+
+
+
+
 
 ### Data Source
 
