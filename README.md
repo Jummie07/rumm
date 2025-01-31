@@ -19,6 +19,10 @@
 
 This project aims to provide a comprehensive data analysis of Adidas sales performance in the US through Power BI. It provides critical insights into total sales, revenue, profit, product performance, and retailer contributions. The dashboard created is an essential tool for identifying trends, optimizing sales strategies, and driving informed business decisions.
 
+
+![image](https://github.com/user-attachments/assets/15f9b029-0e7e-4cd1-939d-ce2e48b2fdbf)
+
+
 ### Data Source
 
 The dataset was obtained from [Kaggle]. It includes retailers id, invoice date, region, state, city, product, price per unit, unit sold, total sales, profit margins, operating profit, and sales method.
