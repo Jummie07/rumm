@@ -24,8 +24,16 @@ This project aims to provide a comprehensive data analysis of Adidas sales perfo
 
 [Product perfomance in each State]
 
+![Visual 1](https://github.com/user-attachments/assets/ec2b79bd-4420-4e47-9476-562f69fd6b24)]
+
+[Top performing Product]
+
+![Visual 3](https://github.com/user-attachments/assets/b18144ac-8e31-4b48-8c63-c9461702bdbd)
 
 
+[![Visual 4](https://github.com/user-attachments/assets/a6fa7d53-d1df-4e81-8006-02aafe52c0ac)]
+
+[Retailer with the most Sales]
 
 
 ### Data Source
