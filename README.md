@@ -1,6 +1,6 @@
-# Adidas US Sales Analysis
+# **Adidas US Sales Analysis**
 
-## Table of Contents
+## **Table of Contents**
 
 - [Project Overview](project_overview)
 - [Data Source](data_source)
@@ -14,9 +14,10 @@
 - [Recommendations](recommendations)
 - [Conclusion](conclusion)
 - [Future enhancements](future_enhancements)
+---
 
-### Project Overview
-
+### **Project Overview**
+---
 This project aims to provide a comprehensive data analysis of Adidas sales performance in the US through Power BI. It provides critical insights into total sales, revenue, profit, product performance, and retailer contributions. The dashboard created is an essential tool for identifying trends, optimizing sales strategies, and driving informed business decisions.
 
 
@@ -35,18 +36,23 @@ This project aims to provide a comprehensive data analysis of Adidas sales perfo
 
 [Retailer with the most Sales]
 
+---
 
-### Data Source
+### **Data Source**
 
 The dataset was obtained from [Kaggle]. It includes retailers id, invoice date, region, state, city, product, price per unit, unit sold, total sales, profit margins, operating profit, and sales method.
 
-### Tools Used
+---
+
+### **Tools Used**
 
   - Power Query – Data cleaning 
   - DAX (Data Analysis Expressions) – For calculations
   - Power BI – Data visualization & Dashboard creation
 
-### Data Cleaning
+---
+
+### **Data Cleaning**
 
   - Removed First 6 rows as they contained null.
   - Removed Colums with null.
@@ -55,13 +61,17 @@ The dataset was obtained from [Kaggle]. It includes retailers id, invoice date, 
   - Formatted date and currency fields.
   - Created new calculated column Total Revenue, Month Name.
 
-### Exploratory Data Analysis (EDA)
+---
+
+### **Exploratory Data Analysis (EDA)**
   - Identified trends in total sales, revenue, and profit over time.
   - Examined top-selling products and best-performing retailers.
   - Analyzed sales distribution across different states.
   - Analyzed month with the higest profit.
 
-### Data Analysis
+---
+
+### **Data Analysis**
 1. Total Sales & Profit Analysis:
     - Total revenue: $49bn
     - Total profit: $102T (potentially a data formatting issue)
@@ -94,25 +104,31 @@ The dataset was obtained from [Kaggle]. It includes retailers id, invoice date, 
       - West Gear: $0.24bn
       - Foot Inc.: $0.22bn
       - Amazon: $0.07bn
+  ---
       
-### Data Insights
+### **Data Insights**
 The basic key insights for this analysis is:
   - Thers is a sales decline over time, revenue & profit show a downward trend, indicating a need for a pricing or marketing strategy shift.
   - Women’s Apparel dominates revenue, but Men’s Street Footwear sells more units, this suggests potential pricing optimization for footwear.
   - West Gear & Foot Inc. dominate sales, but Amazon has lower revenue share, indicating potential for better e-commerce strategies.
   - Retail sales depend heavily on physical stores. The Online sales contribute less, indicating an opportunity to expanding digital/online channels.
   - Top performing States drive most revenue, while other states remain untapped markets for growth opportunities.
-  
-### DAX Used in Power Query
+
+---
+
+### *DAX Used in Power Query*
 Created calculated columns and measures such as;
 ```Power_Query
     Total Revenue: SUM(Sales[Revenue])
 ```
+---
 
-### Results of DAX
+### *Results of DAX*
 Aggregated revenue and profit by product category.
 
-### Recommendations
+---
+
+### **Recommendations**
 1.  Boost Online Sales:
     - Invest in digital(online) marketing & e-commerce strategies to increase online sales.
     - Expand presence on Amazon & online retail platforms.
@@ -127,13 +143,18 @@ Aggregated revenue and profit by product category.
     - Review operational costs & profit margins to identify potential inefficiencies.
     - Adjust pricing models to maintain profitability.
 
-### Conclusion
+  ---
+
+### **Conclusion**
 
 This analysis delivers a thorough overview of Adidas sales in the US, empowering stakeholders to make informed, data-driven decisions. We are poised to enhance it further by incorporating advanced predictive modeling and customer segmentation for even deeper insights.
 
-### Future enhancements
+---
+
+### **Future enhancements**
 
   - Predictive modeling for sales forecasting.
   - Customer segmentation for targeted marketing.
+---
 
 
